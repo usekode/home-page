@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+}
+.App .import-statement {
+  font-size: 60px;
+  letter-spacing: -0.290rem;
+  line-height: 0;
+}
+.App .light {
+  font-weight: 300;
+}
+.App .import-error {
+  border-bottom: 1px dashed red;
+  height: 22px;
+  display: inline-block;
+  cursor: help;
+}
+
+.Kode {
+  position: absolute;
+  bottom: 60px;
+  right: 100px;
+}
+
+@media (max-width: 792px) {
+  .App .import-statement {
+    font-size: 30px;
+    letter-spacing: -0.18rem;
+  }
+  .App .import-error {
+    height: 18px;
+  }
+  .Kode {
+    font-size: 36px !important;
+    right: auto;
+    left: auto;
+    bottom: 0;
+  }
+}

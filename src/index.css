@@ -1,0 +1,27 @@
+
+* {
+  font-family: 'Mukta Mahee', sans-serif;
+  color: rgba(99, 69, 59, 0.838);
+  outline: none;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(244,178,11);
+  background: radial-gradient(circle, rgba(244,178,11,1) 0%, rgba(254,205,39,1) 68%, rgba(251,200,26,1) 100%);
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

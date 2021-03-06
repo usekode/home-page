@@ -1,0 +1,12 @@
+.Kode {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.250rem;
+    color: black;
+}
+
+.Kode .light {
+    font-weight: 300;
+    letter-spacing: -0.1rem;
+}
